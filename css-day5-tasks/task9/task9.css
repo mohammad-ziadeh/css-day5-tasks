@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  display: grid;
+  background-color: rgb(223, 223, 223);
+  justify-content: center;
+}
+.card {
+   
+  margin-top: 80px;
+  background-color: white;
+  width: 350px;
+  height: 550px;
+
+  box-shadow: 5px 5px 20px gray;
+  transition: transform;
+}
+.card:hover {
+
+
+  box-shadow: 5px 5px 20px gray;
+  transform: scale(1.2);
+}
+.header {
+  display: grid;
+}
+.header span {
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: large;
+  color: rgb(163, 163, 163);
+}
+.center {
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: large;
+  color: rgb(163, 163, 163);
+}
+h1{
+    font-size:45px;
+}
+h2 {
+  line-height: 40px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 35px;
+}
+.line {
+  display: flex;
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: rgba(100, 100, 255, 0.749);
+}
+.info {
+  margin-right: 60px;
+  display: grid;
+
+  place-content: center center;
+}
+.info p {
+    margin: 5px;
+  color: #4c4c4c;
+  padding: 0px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color, color;
+    transition-duration: 1s;
+    width: 80%;
+    color: rgb(50, 50, 255);
+    background-color: white;
+    height: 40px;
+    border: 1px solid rgb(163, 163, 163);
+}
+button:hover{
+    background-color: rgb(50, 50, 255);
+    color: white;
+    border: 1px solid rgb(50, 50, 255);
+}

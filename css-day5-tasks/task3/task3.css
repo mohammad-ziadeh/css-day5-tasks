@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
+  animation-name: color;
+  animation-duration: 4s;
+}
+
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: blue;
+  }
+}

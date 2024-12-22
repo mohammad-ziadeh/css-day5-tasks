@@ -1,0 +1,17 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-delay: 4s;
+  animation-name: color;
+  animation-duration: 5s;
+}
+
+@keyframes color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}

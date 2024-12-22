@@ -1,0 +1,18 @@
+body {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+.one {
+  opacity: 0.75;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+}
+.two {
+  transform:  rotateZ(15deg) ;
+  transform-origin: bottom right;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+}
